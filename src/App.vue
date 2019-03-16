@@ -2,91 +2,123 @@
   <div id="app">
     <div class="fiex">
       <div class="head">
-          <div class="logo"><img src="./assets/bxtlogo.png"></div>
-          <div class="menu">
-            <ul>
-              <li>
-                <router-link to="/"><i class="iconfont icon-icon_square"/><div>关于倍鑫特</div></router-link>
-              </li>
-              <li>
-                <router-link to="/productCentre"><i class="iconfont icon-icon_work"/><div>产品中心</div></router-link>
-              </li>
-              <li>
-                <router-link to="/recruit"><i class="iconfont icon-icon_meeting"/><div>人才招聘</div></router-link>
-              </li>
-              <li>
-                <router-link to="/"><i class="iconfont icon-icon_message"/><div>联系我们</div></router-link>
-              </li>
-            </ul>
-          </div>
-
+        <div class="logo">
+          <img src="./assets/bxtlogo.png">
+        </div>
+        <div class="menu">
+          <ul>
+            <li>
+              <router-link to="/">
+                <i class="iconfont icon-icon_square"/>
+                <div class="menu-title">关于倍鑫特</div>
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/productCentre">
+                <i class="iconfont icon-icon_work"/>
+                <div class="menu-title">产品中心</div>
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/recruit">
+                <i class="iconfont icon-icon_meeting"/>
+                <div class="menu-title">人才招聘</div>
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/">
+                <i class="iconfont icon-icon_message"/>
+                <div class="menu-title">联系我们</div>
+              </router-link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <div class="body">
       <router-view/>
     </div>
     <div class="foot">
-
       <div class="foot-log">
         <img src="./assets/bxtlogo.png">
         <div>快速询价：18724164506</div>
-        <div>地址：淮安市经济技术开发区<br>枚皋路19号智慧谷B2号楼109室</div>
+        <div>地址：淮安市经济技术开发区
+          <br>枚皋路19号智慧谷B2号楼109室
+        </div>
       </div>
 
       <div class="item">
-        <h3><a href="acting_brand.aspx">产品中心</a></h3>
+        <h3>
+          <a href="acting_brand.aspx">产品中心</a>
+        </h3>
         <ul>
-          <li><a href="acting_brand.aspx?cid=1">代理品牌</a></li>
-          <li><a href="advantage_brand.aspx?cid=2">优势品牌</a></li>
-          <li><a href="distribution_brand.aspx?cid=3">经销品牌</a></li>
-          <li><a href="pro_classification.aspx?cid=4">产品分类</a></li>
-          <li><a href="industry.aspx?cid=5">行业分类</a></li>
+          <li>
+            <a href="acting_brand.aspx?cid=1">代理品牌</a>
+          </li>
+          <li>
+            <a href="advantage_brand.aspx?cid=2">优势品牌</a>
+          </li>
+          <li>
+            <a href="distribution_brand.aspx?cid=3">经销品牌</a>
+          </li>
+          <li>
+            <a href="pro_classification.aspx?cid=4">产品分类</a>
+          </li>
+          <li>
+            <a href="industry.aspx?cid=5">行业分类</a>
+          </li>
         </ul>
       </div>
       <div class="item">
-        <h3><a href="acting_brand.aspx">产品中心</a></h3>
+        <h3>
+          <a href="acting_brand.aspx">人才招聘</a>
+        </h3>
         <ul>
-          <li><a href="acting_brand.aspx?cid=1">代理品牌</a></li>
-          <li><a href="advantage_brand.aspx?cid=2">优势品牌</a></li>
-          <li><a href="distribution_brand.aspx?cid=3">经销品牌</a></li>
-          <li><a href="pro_classification.aspx?cid=4">产品分类</a></li>
-          <li><a href="industry.aspx?cid=5">行业分类</a></li>
+          <li>
+            <a href="acting_brand.aspx?cid=1">招聘岗位</a>
+          </li>
+          <li>
+            <a href="advantage_brand.aspx?cid=2">福利制度</a>
+          </li>
         </ul>
       </div>
-
-
-
-
     </div>
-
   </div>
 </template>
 
 <style>
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding-left: 0;
+}
 @import "//at.alicdn.com/t/font_1087576_1x9nz1xqvrw.css";
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
 
-
 .head {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1200px;
   height: 100px;
 }
 
-
 .head .logo {
   float: left;
-  margin-top: 5px;
+  height: 80px;
+  vertical-align: middle;
+  margin-top: 10px;
 }
 .head .logo > img {
-  height: 90px;
-  
+  height: 80px;
 }
 .head .menu {
   float: right;
@@ -94,7 +126,7 @@
   margin-right: 50px;
 }
 .head > .body::after {
-  content: ' ';
+  content: " ";
   clear: both;
 }
 .fiex {
@@ -117,36 +149,35 @@
   font-size: 30px;
 }
 .menu > ul li a {
-    color: #666;
-    display: inline-block;
+  color: #666;
+  display: inline-block;
 }
 .body {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 100px auto 0;
   padding: 50px 0;
 }
-
 
 .foot {
   display: flex;
   justify-content: center;
   background-color: #f0f0f0;
-  min-width: 1080px;
+  min-width: 1200px;
   padding-bottom: 50px;
 }
 .foot > .item {
   border-left: 1px solid #dcdcdc;
-  margin: 20px  5px;
+  margin: 20px 5px;
   padding: 0 20px;
 }
-.foot > .item > ul  {
+.foot > .item > ul {
   list-style: none;
   margin: 0;
 }
-.foot > .item > h3  {
+.foot > .item > h3 {
   margin: 0;
 }
-.foot > .item a  {
+.foot > .item a {
   color: #777;
 }
 .foot-log {
@@ -156,13 +187,5 @@
 .foot-log > img {
   height: 60px;
 }
-body {
-  margin: 0;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  padding-left: 0;
-}
+
 </style>
