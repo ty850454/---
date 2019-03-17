@@ -1,0 +1,3 @@
+德国Reckmann温度传感器 - Reckmann GmbH 德国著名的温度传感器/温度测量元件制造商。Reckmann主要产品有：Reckmann传感器、Reckmann温度传感器、Reckmann温度测量元件、Reckmann热电偶。
+
+Reckmann公司自1970年一直制造温度传感器。Reckmann产品范围包括Reckmann传感器、Reckmann温度传感器、Reckmann温度测量元件、Reckmann热电偶。Reckmann已认证自1995和DIN EN ISO 9001:2008质量标准。Reckmann的产品是用于整个行业，例如钢铁厂和铸造厂，能源供应商的发电厂和垃圾焚烧厂，在汽车工业和化学工业电机试验站。

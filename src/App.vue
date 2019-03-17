@@ -126,8 +126,9 @@ ul {
   margin-right: 50px;
 }
 .head > .body::after {
-  content: " ";
+  content: "";
   clear: both;
+  display: block;
 }
 .fiex {
   position: fixed;

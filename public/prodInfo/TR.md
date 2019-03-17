@@ -1,0 +1,3 @@
+德国TR帝尔编码器、德国TR帝尔绝对值编码器、德国TR帝尔增量式编码器、德国TR帝尔位置传感器
+
+德国TR公司（TR-ELECTRONIC GmbH）是一家专业生产和销售德国TR编码器的工业计算机的自动化系统集团公司。公司总部位于德国Trossingen市。主要研发和生产角度和线性位移测量系统，包括增量旋转编码器、绝对值旋转编码器、磁致伸缩直线位移传感器、光栅尺、激光测距仪和智能定位驱动器等。其中绝对值多圈旋转编码器最高分辨率可达36位，同时编码器的匹配接口(SSI、ISI、ASI、PROFIBUS、PROFINET、CAN-BUS、EtherCAT、SLIN、INTERBUS-S、Parallel、Analog和Cam等接口）能与任何一种PLC相兼容。其子公司TRsystems GmbH(+Unidor)生产的工业计算机、伺服轴控制器及自动化总线控制产品能应用于任何环境要求下的工业领域。

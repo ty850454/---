@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import Index from './views/Index.vue'
 import Recruit from './views/Recruit.vue'
 import ProductCentre from './views/ProductCentre.vue'
+import ProductInfo from './views/ProductInfo.vue'
 
 
 Vue.use(Router)
@@ -29,6 +30,11 @@ export default new Router({
       path: '/productCentre',
       name: 'productCentre',
       component: ProductCentre
+    },
+    {
+      path: '/productInfo/:id',
+      name: 'productInfo',
+      component: ProductInfo
     },
     {
       path: '/about',

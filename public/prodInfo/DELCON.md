@@ -1,0 +1,1 @@
+芬兰DELCON继电器 - 固态继电器专业品牌，DELCON SL继电器、DELCON GL继电器、DELCON EX继电器，DELCON已制造继电器30年，固态继电器专业品牌。 DELCON的产品代表了DELCON的高峰期。 DELCON的目标是建立一个全球性的分销网络，使客户能够获得当地的继电器和客户服务可以在客户自己的语言提供。高效的网络与DELCON的分包商，DELCON已设法保持一个小的，灵活的公司。 DELCON的许多客户都在各自领域领先的公司。DELCON的设计，生产和测试处理在芬兰赫尔辛基附近的Nummela镇。 DELCON通过当地经销商销售DELCON的产品。

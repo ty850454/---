@@ -1,0 +1,3 @@
+德国ZIMMER主要产品包括：zimmer 工件夹具、ZIMMER制动器、zimmer导轨夹紧装置、zimmer磁性传感器、zimmer接近传感器、ZIMMER漏水检测器、ZIMMER传感器、ZIMMER存储器、ZIMMER控制器、ZIMMER计数器。美国portasol
+
+zimmer是行业领域领先制造商之一，也是气动和电动搬运系统以及零部件的领先供应商。 zimmer工件夹具是由德国著名夹具制造商ZIMMER研发的高性能产品，zimmer公司于1980年成立于德国莱茵湖畔，开发和生产高度复杂的自动化元件以及系统解决方案.Zimmer公司重视产品的高品质，从规划、设计、生产到组装，严格执行质量标准，在机械和设备工程以及汽车等行业，已成为久负盛名的技术服务商。
