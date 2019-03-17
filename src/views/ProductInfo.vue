@@ -39,7 +39,7 @@ export default {
     }
   },
   beforeRouteUpdate(to, from, next) {
-    this.loadProd(this.$route.params.id);
+    this.loadProd(to.params.id);
   },
   methods: {
     loadProd(id) {
